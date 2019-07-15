@@ -147,6 +147,30 @@ div.sidebar .breadcrumb li:last-child:after {
 	visibility: hidden;
 }
 
+div.sidebar .size-filter {
+	margin-top: 15px;
+
+}
+
+div.sidebar .size-filter h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+	margin-bottom: 15px;
+}
+
+div.sidebar .size-filter form>select {
+	width: 50%;	
+	background: none;
+	border: 1px solid white;
+	height: auto;	
+	overflow: hidden;
+}
+
+div.sidebar .size-filter form>select>option {
+	padding: 5px 10px;
+	color: white;
+}
 
 
 /*button.btn.btn-secondary {	
